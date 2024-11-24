@@ -46,7 +46,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
-  margin-bottom: 10px; /* Add space between buttons */
+  margin-bottom: 10px; 
 }
 
 button:hover {
@@ -55,12 +55,12 @@ button:hover {
 
 /* Styles for the Login button */
 .login-button {
-  background-color: #008CBA; /* Different color for Login button */
+  background-color: #008CBA; 
   margin-top: 10px;
 }
 
 .login-button:hover {
-  background-color: #007bb5; /* Darker blue on hover */
+  background-color: #007bb5; 
 }
 
 /* Toast Container styles */
