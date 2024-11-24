@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import API from '../services/api';  // Import the API instance
+import API from '../services/api';  
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Signup.css';
@@ -41,9 +41,9 @@ const SignupPage = () => {
     if (!validateForm()) return;
 
     try {
-      await API.post('/auth/signup', formData);  // Use the base URL
+      await API.post('/auth/signup', formData);  
       toast.success('Signup successful!');
-      setTimeout(() => navigate('/'), 2000);  // Redirect to Login page after successful signup
+      setTimeout(() => navigate('/'), 2000);  
     } catch (err) {
       toast.error(err.response?.data?.message || 'Signup failed!');
     }
