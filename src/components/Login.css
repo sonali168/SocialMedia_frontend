@@ -46,7 +46,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
-  margin-bottom: 10px; /* Adding space between buttons */
+  margin-bottom: 10px; 
 }
 
 button:hover {
@@ -55,12 +55,12 @@ button:hover {
 
 /* Styles for the Signup button */
 .signup-button {
-  background-color: #008CBA; /* Different color for Signup */
-  margin-top: 10px; /* Add space between Login and Signup buttons */
+  background-color: #008CBA; 
+  margin-top: 10px; /
 }
 
 .signup-button:hover {
-  background-color: #007bb5; /* Darker shade of blue on hover */
+  background-color: #007bb5; 
 }
 
 /* Toast Container styles */
