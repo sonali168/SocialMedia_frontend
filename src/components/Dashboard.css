@@ -39,7 +39,6 @@ body {
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s;
-  /* Prevent full width and only take the necessary space */
   width: auto;
   height: auto;
   margin: 0;
